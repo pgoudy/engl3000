@@ -176,7 +176,7 @@ def prelim():
 	global wordamt
 	global parsed
 
-	inputfile = "shakespear_ebooks.txt"
+	inputfile = "shakespearetext.txt"
 	parsed = file_to_words(inputfile)
 	wordamt = len(parsed)
 	random.seed()
